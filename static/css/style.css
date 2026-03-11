@@ -1,0 +1,139 @@
+/* General Page Styling */
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#f4f6f9;
+    margin:0;
+    padding:0;
+}
+
+/* Navbar Styling */
+
+.navbar{
+    padding:15px;
+}
+
+.navbar-brand{
+    font-size:22px;
+    font-weight:bold;
+}
+
+/* Page Heading */
+
+h2{
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+/* Cards for Property Listings */
+
+.card{
+    border:none;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0px 10px 20px rgba(0,0,0,0.15);
+}
+
+.card img{
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
+}
+
+/* Card Body */
+
+.card-body{
+    padding:20px;
+}
+
+.card-title{
+    font-size:20px;
+    font-weight:600;
+}
+
+/* Property Price */
+
+.text-success{
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* Table Styling (Dashboard) */
+
+table{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+table th{
+    background:#343a40;
+    color:white;
+}
+
+table td{
+    vertical-align:middle;
+}
+
+/* Form Styling */
+
+form{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+    max-width:600px;
+}
+
+input, textarea{
+    border-radius:6px !important;
+}
+
+/* Buttons */
+
+.btn{
+    border-radius:6px;
+}
+
+.btn-primary{
+    background-color:#0d6efd;
+}
+
+.btn-success{
+    background-color:#198754;
+}
+
+.btn-warning{
+    color:white;
+}
+
+.btn-danger{
+    background-color:#dc3545;
+}
+
+/* Footer */
+
+.footer{
+    margin-top:40px;
+    padding:20px;
+    text-align:center;
+    background:#343a40;
+    color:white;
+}
+
+/* Responsive Layout */
+
+@media (max-width:768px){
+
+    .card{
+        margin-bottom:20px;
+    }
+
+    h2{
+        text-align:center;
+    }
+
+}
