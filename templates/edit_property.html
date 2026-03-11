@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Edit Property</h2>
+
+<form method="POST">
+
+<input name="title" value="{{property['title']}}" class="form-control mb-2">
+
+<input name="location" value="{{property['location']}}" class="form-control mb-2">
+
+<input name="price" value="{{property['price']}}" class="form-control mb-2">
+
+<textarea name="description" class="form-control mb-2">{{property['description']}}</textarea>
+
+<button class="btn btn-success">Update Property</button>
+
+</form>
+
+{% endblock %}
