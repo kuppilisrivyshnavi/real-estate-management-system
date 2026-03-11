@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Add Property</h2>
+
+<form method="POST">
+
+<input name="title" class="form-control mb-2" placeholder="Property Title">
+
+<input name="location" class="form-control mb-2" placeholder="Location">
+
+<input name="price" class="form-control mb-2" placeholder="Price">
+
+<textarea name="description" class="form-control mb-2" placeholder="Description"></textarea>
+
+<button class="btn btn-primary">Add Property</button>
+
+</form>
+
+{% endblock %}
